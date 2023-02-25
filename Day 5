@@ -1,4 +1,5 @@
 // Course Registration
+// Platform: Codechef
 
 #include <iostream>
 using namespace std;
