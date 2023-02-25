@@ -1,4 +1,5 @@
 // Read Pages 
+// Platform: Codechef
 
 #include <iostream>
 using namespace std;
