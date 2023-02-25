@@ -1,0 +1,23 @@
+// Read Pages 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int N,X,Y;
+	    cin>>N>>X>>Y;
+	    if(X*Y>=N)
+	    {
+	        cout<<"Yes"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"No"<<endl;
+	    }
+	}
+	return 0;
+}
