@@ -1,0 +1,58 @@
+// Platform: Codechef 
+// Burgers
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int A,B;
+	    cin>>A>>B;
+	    cout<<min(A,B)<<endl;
+	}
+	return 0;
+}
+
+//Chef Plays Ludo
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int X;
+	    cin>>X;
+	    if(X==6)
+	    {
+	        cout<<"yes"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"no"<<endl;
+	    }
+	}
+	return 0;
+}
+
+//Fitness
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int X;
+	    cin>>X;
+	    cout<<2*X*5<<endl;
+	}
+	return 0;
+}
