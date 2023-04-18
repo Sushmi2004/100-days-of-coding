@@ -1,5 +1,5 @@
-// Biryani Classes
 // Platform: Codechef
+// Biryani Classes
 
 #include <iostream>
 using namespace std;
@@ -12,6 +12,45 @@ int main() {
 	    int X,Y;
 	    cin>>X>>Y;
 	    cout<<X*Y<<endl;
+	}
+	return 0;
+}
+
+// Saving Taxes
+#include <iostream>
+using namespace std;
+
+int main() {
+       int t;
+       cin>>t;
+       while(t--)
+       {
+           int X,Y;
+           cin>>X>>Y;
+           cout<<X-Y<<endl;
+       }
+	return 0;
+}
+
+// Water Consumption
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int X;
+	    cin>>X;
+	    if(X>=2000)
+	    {
+	        cout<<"yes"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"no"<<endl;
+	    }
 	}
 	return 0;
 }
