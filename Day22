@@ -1,0 +1,25 @@
+// Reach on Time
+// Platform: Codechef
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int x;
+	    cin>>x;
+	    if(x>=30)
+	    {
+	        cout<<"yes"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"no"<<endl;
+	    }
+	    
+	}
+	return 0;
+}
